@@ -11,10 +11,10 @@ public class Ebay {
   {
 	  WebDriver driver=  new ChromeDriver();
 	  Reporter.log("opening ebay", false);
-	 // Thread.sleep(3000);
+	 
 	  driver.get("https://www.ebay.com/");
 	  Thread.sleep(7000);
-	  driver.close(); 
+	  driver.quit(); 
 	  
 	  
 	  
