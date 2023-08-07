@@ -13,8 +13,9 @@ public class Myntra {
 	  //Thread.sleep(3000);
 	  
 	  driver.get("https://www.myntra.com");
-	  Thread.sleep(7000);
-	  driver.close();
+	 
 	  
+	  Thread.sleep(3000);
+	  driver.quit();
   }
 }

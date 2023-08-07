@@ -12,8 +12,8 @@ public class Flipkart {
 	  Reporter.log("Opening flipkart", true);
 	  //Thread.sleep(3000);
 	  driver.get("https://www.flipkart.com");
-	  Thread.sleep(7000);
-	  driver.close();
+	  Thread.sleep(3000);
+	  driver.quit();
 	  
 	  
   }
