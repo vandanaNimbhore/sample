@@ -9,10 +9,12 @@ public class Myntra {
   @Test
   public void myntraTest() throws InterruptedException {
 	  WebDriver driver=new ChromeDriver();
-	  Reporter.log("opening myntra", false);
+	  Reporter.log("opening myntra", true);
 	  //Thread.sleep(3000);
+	  
 	  driver.get("https://www.myntra.com");
 	  Thread.sleep(7000);
 	  driver.close();
+	  
   }
 }

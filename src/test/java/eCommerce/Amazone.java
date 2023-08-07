@@ -9,7 +9,7 @@ public class Amazone {
   @Test
   public void amazontest() throws InterruptedException {
 	  WebDriver driver=  new ChromeDriver();
-	  Reporter.log("opening amazhone", false);
+	  Reporter.log("opening amazhone", true);
 	 // Thread.sleep(3000);
 	  driver.get("https://www.amazon.in");
 	  Thread.sleep(7000);
